@@ -35,6 +35,7 @@ public class ProductController {
     private CategoryService categoryService;
 
     @GetMapping("/list")
+//    @CrossOrigin(allowCredentials = "true", )
     public ResultVO<ProductVO> list() {
 
         /** 1. 查询所有上架商品 */
